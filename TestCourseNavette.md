@@ -166,3 +166,4 @@ Fin Para
     Escribir "Promedio VO₂máx estimado: ", SumaVo2Max, " ml/kg/min"
 
 FinAlgoritmo
+HOLA DANNA
