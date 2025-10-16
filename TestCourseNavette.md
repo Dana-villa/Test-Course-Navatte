@@ -1,10 +1,12 @@
 Algoritmo TestCourseNevette
     Definir CantidadParticipantes, Participante, Edad, Nivel, Etapa Como Entero
     Definir Nombre, CondicionFisica Como Caracter
-    Definir VelocidadFinal, TotalMetros, Vo2Sim, Vo2Max, SumaVo2Sim, SumaVo2Max Como Real
+    Definir VelocidadFinal, TotalMetros, Vo2Sim, Vo2Max, SumaVo2Sim, SumaVo2Max, PromVo2Sim Como Real
 
     SumaVo2Sim <- 0
     SumaVo2Max <- 0
+    PromVo2Sim <- 0
+    PromVo2Max <- 0
 
 // Ingreso de la cantidad de participantes
 Escribir "Ingrese la cantidad de participantes: "
@@ -71,8 +73,8 @@ Para Participante Desde 1 Hasta CantidadParticipantes Hacer
         Fin Si
     Fin Si
 
-    SumaVo2Sim = (Vo2Sim+SumaVo2Sim)/CantidadParticipantes 
-    SumaVo2Max = (Vo2Max+ sumaVo2Max)/CantidadParticipantes
+    PromVo2Sim = (Vo2Sim+SumaVo2Sim)/CantidadParticipantes 
+    PromVo2Max = (Vo2Max+ sumaVo2Max)/CantidadParticipantes
     
     // Salida de resultados
     Escribir "RESULTADOS DEL TEST COURSE NAVETTE"
@@ -89,7 +91,7 @@ Para Participante Desde 1 Hasta CantidadParticipantes Hacer
 
 Fin Para
 
-    Escribir "Promedio VO₂Sim: ", SumaVo2Sim, " ml/kg/min"
-    Escribir "Promedio VO₂máx estimado: ", SumaVo2Max, " ml/kg/min"
+    Escribir "Promedio VO₂Sim: ", PromVo2Sim, " ml/kg/min"
+    Escribir "Promedio VO₂máx estimado: ", PromVo2Max, " ml/kg/min"
 
 FinAlgoritmo
