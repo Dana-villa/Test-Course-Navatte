@@ -69,7 +69,7 @@ FinAlgoritmo
 
 
 -----------------------------------------------------------------------------------------------------------------
-
+### Modifico Arturo
 
 Algoritmo TestCourseNevette
     Definir CantidadParticipantes, Participante, Edad, Nivel, Etapa Como Entero
