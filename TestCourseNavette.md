@@ -1,7 +1,7 @@
 Algoritmo TestCourseNevette
     Definir CantidadParticipantes, Participante, Edad, Nivel, Etapa Como Entero
     Definir Nombre, CondicionFisica Como Caracter
-    Definir VelocidadFinal, TotalMetros, Vo2Sim, Vo2Max, SumaVo2Sim, SumaVo2Max, PromVo2Sim Como Real
+    Definir VelocidadFinal, TotalMetros, Vo2Sim, Vo2Max, SumaVo2Sim, SumaVo2Max, PromVo2Sim, PromVo2Max Como Real
 
     SumaVo2Sim <- 0
     SumaVo2Max <- 0
